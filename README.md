@@ -57,7 +57,7 @@ code.go和loader.go
 备注：golang 调用cmd下程序隐藏黑窗口-方法
 编译go时加入参数： go build -ldflags="-H windowsgui"
 
-![6](images\6.png)
+![6](images/6.png)
 
 ![image-20210114121646938](images/7.png)
 
