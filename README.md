@@ -32,7 +32,7 @@ code.go和loader.go
 
 1.先打开code.go,修改如图两个key。
 
-![image-20210114112344275](images\1.png)
+![image-20210114112344275](images/1.png)
 
 2.将生成的64位java Shellcode填入（去首尾多于字符，只保留代码！）替换到引号内。
 
@@ -40,17 +40,17 @@ code.go和loader.go
 
 如下图：
 
-![image-20210114112743348](images\3.png)
+![image-20210114112743348](images/3.png)
 
 3.go run code.go + .jpg图片,如图所示：
 
-![image-20210114112918574](images\4.png)
+![image-20210114112918574](images/4.png)
 
 4.将图片上传到未压缩图床。
 
 5.修改loader.go,key值同code相同，imageURL改为图片链接即可。
 
-![image-20210114113131191](images\5.png)
+![image-20210114113131191](images/5.png)
 
 6.go run loader.go即可上线。
 
@@ -59,5 +59,5 @@ code.go和loader.go
 
 ![6](images\6.png)
 
-![image-20210114121646938](images\7.png)
+![image-20210114121646938](images/7.png)
 
