@@ -36,7 +36,7 @@ code.go和loader.go
 
 2.将生成的64位java Shellcode填入（去首尾多于字符，只保留代码！）替换到引号内。
 
-![2](images\2.png)
+![2](images/2.png)
 
 如下图：
 
